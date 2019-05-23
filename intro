@@ -1,0 +1,102 @@
+Visual Studio Code
+Acessar a pasta criada no Git Bash abixo
+Criar um novo arquivo .js
+
+//interface para envio de comandos
+Git bash
+
+$ cd Desktop
+$ ls
+$ mkdir mini-curso
+$ cd mini-curso/
+$ code .
+$ node Node_HelloWorld.js
+Hello World!
+
+Node.js é um compilador de javascript para backend
+GET
+POST
+PUT
+PATCH
+DELETE
+HEAD
+OPTIONS
+
+/ - significa o end point para determinados cabeçalhos
+
+2xx - requisição processada com sucesso
+3xx - necessita de uma ação para concluir
+4xx - erros causados pelo cliente
+5xx - erros no servidor
+
+API - serviço disponibilizado para uma aplicação, integração com algum serviço
+
+JSON
+
+{
+  "orders": [
+     {
+       "orderno": ""
+       "date": ""
+       "trackingno": ""
+       "custid": ""
+       "customer": [
+         {
+           "custid": ""
+           "fname": ""
+           "lanme": ""
+           "address": ""
+           "city": ""
+           "state": ""
+           "zip": ""
+           }
+       }    
+  }
+  
+Coleção = Tabelas
+Sempre que existir algo entre " " são objetos
+[ - representa listas ou arrays
+
+MongoDB
+MVC - Model View Controller
+Controller responde ou pra Model ou pra View
+
+Utilizaremos
+Javascript
+NodeJS
+MongoDB
+MVC
+Express //servidor back-end
+Mongoose //integração com o MongoDB
+Nodemon //responsavél pelo reinicio automatico do servidor
+REST
+
+Após configurar o WebServer no Visual Studio
+//WebServer
+const http = require('http')
+
+const servidor = http.createServer(function (req, resp)
+{
+  let html = '';
+  if (req.url == '/') 
+  {
+    // ` utilizado para adição de um código HTML
+    html = ` 
+    <html>   
+      <head>
+        <meta charset = utf-8>
+      </head>
+      <body>
+        <h1>Casa do Código</h1>
+      </body>  
+    </html>`;  
+  }
+  resp.end(html)
+});
+
+Abrir o Git Bash
+$ npm init
+$ npm start
+
+
+
