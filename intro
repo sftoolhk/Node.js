@@ -9,7 +9,7 @@ $ cd Desktop
 $ ls
 $ mkdir mini-curso
 $ cd mini-curso/
-$ code .
+$ code . //para chamar o Visual Studio 
 $ node Node_HelloWorld.js
 Hello World!
 
@@ -95,8 +95,23 @@ const servidor = http.createServer(function (req, resp)
 });
 
 Abrir o Git Bash
+$ npm install http
 $ npm init
 $ npm start
+
+$ npm install -D nodemon
+$ npm install -g nodemon
+$ npm config get prefix
+
+no package.json colocar o seguinte codigo abaixo do start
+"dev": "C:/Users/cj3002578/AppData/Roaming/npm/nodemon server.js"
+
+Instalar o Postman
+
+Acesse: rocketseat.com.br
+
+
+
 
 
 
